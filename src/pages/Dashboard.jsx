@@ -1,12 +1,9 @@
-// import { getResponse } from '../services/openIa';
-
-import { eeeey } from "../services/openIa";
+import { main } from "../services/openIa";
 
 function Dashboard() {
   function handleSubmit(e) {
     e.preventDefault();
-    // getResponse('et');
-    eeeey()
+    main()
   }
 
   return (
