@@ -7,10 +7,12 @@ function App() {
     {
       path: '/',
       element: <AppLayout />,
-    },
-    {
-      path: '/dashboard',
-      element: <Dashboard />,
+      children: [
+        {
+          path: '/dashboard',
+          element: <Dashboard />,
+        },
+      ],
     },
   ]);
 
